@@ -13,3 +13,17 @@ function destructivelyPrependKitten(name) {
   kittens.shift(name)
   return kittens
 }
+
+var kittens = ['Milo', 'Otis', 'Garfield']
+
+function destructivelyRemoveLastKitten() {
+  kittens.pop()
+  return kittens
+}
+
+var kittens = ['Milo', 'Otis', 'Garfield']
+
+function destructivelyRemoveFirstKitten() {
+  kittens.unshift()
+  return kittens
+}
