@@ -10,7 +10,7 @@ function destructivelyAppendKitten(name) {
 var kittens = ['Milo', 'Otis', 'Garfield']
 
 function destructivelyPrependKitten(name) {
-  kittens.shift(name)
+  kittens.unshift(name)
   return kittens
 }
 
@@ -24,7 +24,7 @@ function destructivelyRemoveLastKitten() {
 var kittens = ['Milo', 'Otis', 'Garfield']
 
 function destructivelyRemoveFirstKitten() {
-  kittens.unshift()
+  kittens.shift()
   return kittens
 }
 
